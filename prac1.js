@@ -1,0 +1,10 @@
+function grade(mark) {
+  if (mark >= 80) return "A+";
+  else if (mark >= 70) return "A";
+  else if (mark >= 60) return "A-";
+  else if (mark >= 50) return "B";
+  else if (mark >= 40) return "C";
+  else return "Fail";
+}
+
+console.log(grade(75));
